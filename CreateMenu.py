@@ -14,6 +14,9 @@ def CreateMenu(optionList, menuTitle):
     Precondition: optionList must be a list of strings
                   menuTitle must be a string.
     """
+    """
+                  This is an addition for git lab 2
+    """
     if not type(optionList)==list:
         return None
     
